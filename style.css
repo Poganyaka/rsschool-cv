@@ -66,3 +66,13 @@ h1 {
   color: black;
   font-size: 18px;
 }
+
+.nav-link:hover {
+  transition: 0.3s;
+  color: #829985;
+}
+
+.ul-link:hover {
+  transition: 0.3s;
+  color: #5015f0;
+}
