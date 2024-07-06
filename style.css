@@ -19,8 +19,21 @@
 body {
   font-family: "Roboto";
   font-weight: 400;
+  margin: 0;
 }
 
 h1 {
   font-weight: 700;
+}
+
+.header {
+  border: 1px solid red;
+}
+
+.main {
+  border: 1px solid red;
+}
+
+.footer {
+  border: 1px solid red;
 }
