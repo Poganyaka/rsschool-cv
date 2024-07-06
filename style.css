@@ -81,6 +81,21 @@ h1 {
   color: #15073b;
 }
 
-span {
+.span {
   color: #5015f0;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
