@@ -72,7 +72,15 @@ h1 {
   color: #829985;
 }
 
+.ul-link {
+  color: #5015f0;
+}
+
 .ul-link:hover {
   transition: 0.3s;
+  color: #15073b;
+}
+
+span {
   color: #5015f0;
 }
