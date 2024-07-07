@@ -1,10 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
+
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#english">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section profile-section" id="profile">
+                <h1 class="section-title h1">Marina Lopatkina</h1>
+                <img class="img" src="assets/img/avatar.jpg" alt="my avatar" title="The picture is used for educational purposes and will not be used in a real portfolio, original: https://static.wikia.nocookie.net/spongebob/images/a/a3/The_Slumber_Party_086.png/revision/latest/scale-to-width-down/1200">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts for communication</h2>
+                <ul>
+                    <li class="li">E-mail: <span class="span"><a class="ul-link" href="mailto:poganyaka@gmail.com" target="_blank">poganyaka@gmail.com</a></span></li>
+                    <li class="li">Telegram: <span class="span"><a class="ul-link" href="https://t.me/poganyaka" target="_blank">@Poganyaka</a></span></li>
+                    <li class="li">Discord: <span class="span"><a class="ul-link" href="https://discord.com/users/543837211477540898" target="_blank">Poganyaka</a></span></li>
+                    <li class="li">GitHub: <span class="span"><a class="ul-link" href="https://github.com/Poganyaka" target="_blank">Poganyaka</a></span></li>
+                </ul>
+            </section>
+            <div class="section section-img">
+                <img class="img img-call" src="assets/img/contacts.JPG" alt="contacts" title="The picture is used for educational purposes and will not be used in a real portfolio, original: https://static.tvtropes.org/trope_videos_transcoded/images/sd/9kh2mx.jpg">
+            </div>
+            <section class="section section-summary" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>My goal is to become a good specialist in IT development. Now the priority is front-end development. I love to study,
+                especially what relates to computer technologies.</p>
+                <h4 class="h4">My strengths</h4>
+                <div class="section-strengths">
+                    <ul>
+                        <li class="li-inside">attentiveness</li>
+                        <li class="li-inside">responsibility</li>
+                        <li class="li-inside">patience</li>
+                        <li class="li-inside">teamwork</li>
+                    </ul>
+                </div>
+                <p><em>I have general work experience, but I don't want to talk about it :)</em></p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li class="li">HTML, CSS (beginner)</li>
+                    <li class="li">JS (beginner)</li>
+                    <li class="li">Git, GitHub</li>
+                    <li class="li">Visual Studio Code</li>
+                    <li class="li">Figma</li>
+                    <li class="li">Adobe Photoshop</li>
+                    <li class="li">Adobe Illustrator</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li class="li">National Research Nuclear University "MEPHI" (once upon a time..)</li>
+                    <li class="li"><em>Some vocational retraining program (it's a secret)</em></li>
+                    <li class="li">Graphic design courses in Yandex.Practice (2023)</li>
+                    <li class="li">RS Schools Course «JS/FE Pre-School 2024Q2» (will be completed in October 2024)</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <pre><code>
+    <span class="span">function</span> multiply(a, b) {
+        <span class="span">return</span> a * b;
+     }
+                </code></pre>
+            </section>
+            <div class="section section-img">
+                <img class="img img-call" src="assets/img/Code.gif" alt="Coding" title="The picture is used for educational purposes and will not be used in a real portfolio, original: https://i.pinimg.com/originals/13/ff/36/13ff36e36fcd3be1f03322383b5e6a63.gif">
+            </div>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <ul>
+                    <li class="li"><a class="ul-link" href="https://poganyaka.github.io/rsschool-cv/cv" target="_blank">CV#1. Markdown &amp; Git (educational project)</a></li>
+                    <li class="li"><a class="ul-link" href="https://poganyaka.github.io/rsschool-cv/" target="_blank">CV#3. CV. Cross-Check (educational project)</a></li>
+                    <li class="li"><em>i'll be back...</em></li>
+                </ul>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English level</h2>
+                <p>А1, but I'm learning</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>2024 <a class="footer-link" href="https://github.com/Poganyaka" target="_blank">Poganyaka</a></p>
+            <a class="footer-link" href="https://rs.school/courses/javascript-ru" target="_blank"><img class="logo" src="assets/img/rsschool-logo.svg" alt="RSS LOGO"></a>
+        </div>
+    </footer>
+
 </body>
 </html>
